@@ -1,0 +1,54 @@
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+fieldset,
+figure,
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+button {
+  font: inherit;
+  color: inherit;
+  border: none;
+	text-decoration: none;
+	&:focus {
+		outline: none;
+	}
+}
+
+fieldset,
+hr {
+  border: none;
+}
+
+input,
+textarea,
+select {
+	font: inherit;
+	color: inherit;
+	border: none;
+	box-shadow: none;
+  &::placeholder {
+    opacity: 0.5;
+    color: inherit;
+  }
+	&:focus {
+		outline: none;
+	}
+}
+
+textarea {
+	resize: none;
+	vertical-align: top;
+}
